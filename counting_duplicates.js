@@ -11,6 +11,7 @@
 // "aA11" -> 2 # 'a' and '1'
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
 
+let text = "aabbcde"
 
 function duplicateCount(text){
     let arr = text.toLowerCase().split("")
